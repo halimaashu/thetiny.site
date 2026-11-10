@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import FaqSection from "@/components/Faqsection";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import PricingSection from "@/components/Pricingsection";
@@ -18,7 +19,7 @@ export default function Home() {
         <StatsSection/>
         <PricingSection/>
         <ReviewsSection/>
-
+        <FaqSection/>
        </div>
       </main>
     </div>
