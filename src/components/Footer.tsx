@@ -50,7 +50,7 @@ const focus =
     'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand';
 
 const Footer = () => {
-    const year = new Date().getFullYear();
+    const year = "2026";
     const lenis = useLenis();
 
     return (
