@@ -45,7 +45,7 @@ The goal of this assignment is to recreate the homepage of **The Tiny Site** wit
 Before coding, the layout structure, section hierarchies, and responsive breakpoints were mapped out via hand-drawn wireframes to ensure precise UI alignment.
 
 <p align="center">
-  <img src="./planing.jpg" alt="Design Planning Sketch" width="800" />
+  <img src="./public/planing.jpg" alt="Design Planning Sketch" width="800" />
   <br />
   <em>Hand-drawn Notebook Wireframe & Layout Planning</em>
 </p>
@@ -58,13 +58,13 @@ Before coding, the layout structure, section hierarchies, and responsive breakpo
 
 | Light Mode | Dark Mode |
 | :---: | :---: |
-| <img src="./desktop-light.jpg" alt="Desktop Light Mode" width="400" /> | <img src="./desktop-dark.png" alt="Desktop Dark Mode" width="400" /> |
+| <img src="./public/desktop-light.png" alt="Desktop Light Mode" width="400" /> | <img src="./public/desktop-dark.png" alt="Desktop Dark Mode" width="400" /> |
 
 ### 📱 Mobile View
 
 | Light Mode | Dark Mode |
 | :---: | :---: |
-| <img src="./mobile-light.jpg" alt="Mobile Light Mode" width="200" /> | <img src="./mobile-dark.jpg" alt="Mobile Dark Mode" width="200" /> |
+| <img src="./public/mobile-light.jpg" alt="Mobile Light Mode" width="200" /> | <img src="./public/mobile-dark.jpg" alt="Mobile Dark Mode" width="200" /> |
 
 ---
 
