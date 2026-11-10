@@ -5,6 +5,7 @@ import NavBar from "@/components/NavBar";
 import PricingSection from "@/components/Pricingsection";
 import ReviewsSection from "@/components/Reviewssection";
 import StatsSection from "@/components/Statssection'";
+import VideoSection from "@/components/Videosection";
 import WhyWe from "@/components/WhyWe";
 import Image from "next/image";
 
@@ -15,6 +16,7 @@ export default function Home() {
        <div className="">
        
         <Banner/>
+        <VideoSection/>
         <WhyWe/>
         <StatsSection/>
         <PricingSection/>
