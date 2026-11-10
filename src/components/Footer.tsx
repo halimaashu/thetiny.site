@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { useLenis } from 'lenis/react';
 import { FiArrowRight, FiArrowUp, FiBarChart2, FiLink, FiMail, FiShield } from 'react-icons/fi';
 import { FaGithub, FaLinkedinIn, FaXTwitter } from 'react-icons/fa6';
 
@@ -50,6 +51,7 @@ const focus =
 
 const Footer = () => {
     const year = new Date().getFullYear();
+    const lenis = useLenis();
 
     return (
         <footer className="bg-gray-50 text-gray-700 dark:bg-[#0B0818] dark:text-gray-300">
@@ -145,7 +147,7 @@ const Footer = () => {
                     <p>&copy; {year} thetiny.site. All rights reserved.</p>
                     <button
                         type="button"
-                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                        onClick={() => (lenis ? lenis.scrollTo(0) : window.scrollTo({ top: 0, behavior: 'smooth' }))}
                         className={`inline-flex items-center gap-2 rounded-lg px-3 py-2 font-medium transition-colors hover:bg-gray-200 dark:hover:bg-white/10 ${focus}`}
                     >
                         Back to top

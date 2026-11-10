@@ -1,8 +1,11 @@
 @import "tailwindcss";
 @import "@heroui/styles"; 
+@import 'lenis/dist/lenis.css';
 :root {
   --background: #ffffff;
   --foreground: #171717;
+   --accent: oklch(0.7 0.25 260);
+  --success: oklch(0.65 0.15 155);
 }
 body {
   background-color: #f3f4f6;
